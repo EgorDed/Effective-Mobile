@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Effective Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: flex; flex-direction: column;">
+    <form action="" method="post" style="display: flex; flex-direction: column; width: 200px">
+        <input id="name" name="name" type="text" placeholder="Введите имя" />
+        <input name="phone" type="text" placeholder="Введите номер телефона" />
+        <button id="create" type="submit">Создать</button>
+    </form>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>№</td>
+                    <td>Имя</td>
+                    <td>Телефон</td>
+                    <td></td>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+        <h1 id="alert"></h1>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
